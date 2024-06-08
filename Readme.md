@@ -3,55 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NodeMCU v2 HLK-10M05</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #343a40;
-    animation: fade-in 1s ease-in-out;
-  }
 
-  h1, h2, h3, h4, h5 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #007bff;
-    transition: color 0.3s ease-in-out;
-  }
-
-  h2:hover {
-    color: #ff6600;
-  }
-
-  p {
-    font-family: 'Roboto', Arial, sans-serif;
-  }
-
-  ol, ul {
-    padding-left: 20px;
-  }
-
-  @keyframes fade-in {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-
-  .fadeIn {
-    animation: fadeInAnimation 2s ease-in-out forwards;
-    opacity: 0;
-  }
-
-  @keyframes fadeInAnimation {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-</style>
 </head>
 <body>
 <h1 class="fadeIn" style="color: #e83e8c">NodeMCU v2 HLK-10M05</h1>
@@ -230,12 +182,6 @@
 
 <p class="fadeIn" style="color: #6c757d">This project is licensed under the MIT License - see the <a href="LICENSE" style="color: #007bff">LICENSE</a> file for details.</p>
 
-<script>
-  const fadeInElements = document.querySelectorAll('.fadeIn');
-  fadeInElements.forEach((element, index) => {
-    element.style.animationDelay = `${index * 0.5}s`;
-  });
-</script>
 
 </body>
 </html>
